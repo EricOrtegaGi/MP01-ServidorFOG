@@ -65,19 +65,124 @@ ara tindrem que tornar a enjegar el client windows i tornar fer boot desde lan i
 un cop ha acabat al servidor si anem a imatges vorem com tenim la imatge de windows, i ja no pesa 0 si no que ara pesa 10gb pel que significa que s'ha capturat crrectament:
 
 ![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/3b360975-7aec-4422-8408-48aadcb35122)
-
-
-
-
-
 ---
 
 ## Captura Desde Client Ubuntu ##
+
+En aquest cas, el proces de captura es exactament de la mateixa forma que com ho hem fet en windows:
+
+despres de habilitar el boot per lan a la maquina ubuntu la enjeguem i arranquem desde lan i seleccionem la registracio del host:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/157d0a00-990d-4c1b-9521-83edb94399e3)
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/2f161137-7ed5-41b7-848f-858f21256a0f)
+
+un cop capturat el host, creem la imatge al servidor fog
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/274f5136-68b9-4ede-8e31-edce45685fe8)
+
+tornarem a iniciar la maquina ubuntu desde lan i la imatge comensara a ser capturada
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/229bdbc2-1cc1-4efd-9012-c8e52b68bbff)
+
+finalment ja tenim les dues, la imatge de windows y tambe la de ubuntu: 
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/df076f18-6691-4e34-bbc2-9b949f20adb8)
+
 
 ---
 
 ## Instal·lacio Amb Imatge Windows ##
 
+preparem una maquina amb un disc buit, i amb el boot per xarxa habilitat
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/a4f0a42f-0ee0-4c00-bcd3-e844f5cce4b3)
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/1e2a1960-877b-4358-a6f8-1ab79a31b7ed)
+
+i ara seleccionem la opcio, deploy image:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/127c2ac9-81b1-4fd9-a1d4-85d16bb99105)
+
+i seleccionem la imatge que volem instalar al disc:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/5c87d52f-f9d2-4ed2-9bf3-250b47c3b65f)
+
+la instalacio comensara sense cap problema
+  
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/4029ba36-43f9-4918-85cd-f677b2cc1753)
+  
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/c0d3c5e5-a093-4426-9a04-966904baf721)
+  
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/346b4c95-7d67-440e-9703-b961801de779)
+
+un cop finalitze la instalacio ja tenim el windows en el disc:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/ccfd02fb-78dd-414a-9724-78c4136ed14e)
+
+aquest windows habia sigut capturat amb un google chrome
+
+
 ---
 
 ## Instal·lacio Amb Imatge Ubuntu ##
+
+El proces amb ubuntu es exactament el mateix, primer que tot necesitem una maquina amb un disc buit i amb el boot per xarxa habilitat:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/e30535c5-c6bd-4f21-997f-16dd660f033f)
+
+fem boot desde lan
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/054cdb08-5a92-4140-aa37-6cc056281741)
+
+
+i seguidament seleccionem la opcio de deploy image, aquesta vegada seleccionarem la de ubuntu i farem la instalacio amb ubuntu:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/1d04c2c5-e8db-4e1d-a2bd-23018f02d935)
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/64105b3e-0d4b-420a-a4e8-6e333abac0e0)
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/5f8639ce-23f9-4db0-8445-5cfb0f3a450f)
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/41e6eed2-0086-4d78-be34-15dcdad8bf0f)
+
+un cop a finalitzat ja tenim el ubuntu instalat desde el servidor fog:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/80c73ea3-ec80-4ec5-b601-ba3a0a11d39e)
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/62e245ac-4cff-4c11-8c74-bec9e31d0c48)
+
+## Llençar Paquet Que S'instal·li Als Clients ## 
+
+Descarreguem el firefox
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/61996abc-4168-452a-8eb3-af363ceab273)
+
+i el seleccionem de snaping file 
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/18dc820e-9bfe-4999-922f-e1f1da7504bc)
+
+entrem al host que volem llançar la instalacio:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/26a5522c-e604-428a-b5d6-3b0643f05b68)
+
+entrem a snapins
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/eaa1847e-33d4-4e74-b70a-63b18f30ddf7)
+
+seleccionem el de firefox: 
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/ccc6379b-1051-4b15-951c-5b318f5c42e2)
+
+l'afetgim:
+
+![image](https://github.com/EricOrtegaGi/MP01-ServidorFOG/assets/114953110/3d85a694-df51-4b74-b434-a2376c6c38f6)
+
+
+
+
+
+
+
+
+
+
